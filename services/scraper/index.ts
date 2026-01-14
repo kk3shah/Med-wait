@@ -2,7 +2,7 @@ import { ScraperService } from './lib/scraper';
 
 async function main() {
     const service = new ScraperService();
-    await service.runAll();
+    await service.startSchedule();
 }
 
 main().catch(err => {

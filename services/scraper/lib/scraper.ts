@@ -20,10 +20,26 @@ export class ScraperService {
         const activeHospitals = await db.select().from(hospitals).where(eq(hospitals.active, true));
 
         for (const hospital of activeHospitals) {
-            await this.scrapeHospital(hospital.id, hospital.waittime_source_url, hospital.adapter_key);
+            try {
+                await this.scrapeHospital(hospital.id, hospital.waittime_source_url, hospital.adapter_key);
+            } catch (err) {
+                this.logger.error({ hospitalId: hospital.id, err }, 'Failed to scrape hospital');
+            }
         }
 
         this.logger.info('Finished all scrape runs');
+    }
+
+    async startSchedule(intervalMs: number = 30 * 60 * 1000) {
+        this.logger.info({ intervalMs }, 'Starting scraper schedule');
+
+        const run = async () => {
+            await this.runAll();
+            this.logger.info({ nextRunIn: intervalMs }, 'Sleeping until next run');
+            setTimeout(run, intervalMs);
+        };
+
+        run();
     }
 
     async scrapeHospital(hospitalId: string, url: string | null, adapterKey: string) {
