@@ -1,5 +1,19 @@
 {
-  "dependencies": {
+  "name": "medwait-monorepo",
+  "private": true,
+  "scripts": {
+    "install:all": "pnpm install",
+    "db:push": "pnpm --filter @medwait/db push",
+    "db:generate": "pnpm --filter @medwait/db generate",
+    "db:seed": "pnpm --filter @medwait/db seed",
+    "scraper:once": "pnpm --filter @medwait/scraper start",
+    "scraper:dev": "pnpm --filter @medwait/scraper dev",
+    "api:dev": "pnpm --filter @medwait/api dev",
+    "web:dev": "pnpm --filter @medwait/web dev",
+    "backtest": "pnpm --filter @medwait/scraper backtest",
+    "tune": "pnpm --filter @medwait/scraper tune"
+  },
+  "devDependencies": {
     "pnpm": "^10.28.0"
   }
 }

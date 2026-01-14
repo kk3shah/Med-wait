@@ -17,7 +17,7 @@ interface HospitalRecord {
 }
 
 async function seed() {
-    const csvFilePath = path.resolve(__dirname, '../../../../data/ontario_hospitals_seed.csv');
+    const csvFilePath = path.resolve(__dirname, '../../../data/ontario_hospitals_seed.csv');
     const fileContent = fs.readFileSync(csvFilePath, { encoding: 'utf-8' });
 
     const records = parse(fileContent, {
