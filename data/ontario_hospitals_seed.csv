@@ -1,0 +1,103 @@
+name,address,city,postal,website,waittime_source_url,adapter_key,region,lat,lng,funding_rank
+Toronto General Hospital,200 Elizabeth St,Toronto,M5G 2C4,https://www.uhn.ca/OurHospitals/TGH,https://www.uhn.ca/OurHospitals/TGH/Pages/ER_wait_times.aspx,uhn_generic,GTA,43.6591,-79.3883,1
+Toronto Western Hospital,399 Bathurst St,Toronto,M5T 2S8,https://www.uhn.ca/OurHospitals/TWH,https://www.uhn.ca/OurHospitals/TWH/Pages/ER_wait_times.aspx,uhn_generic,GTA,43.6534,-79.4057,2
+Mount Sinai Hospital,600 University Ave,Toronto,M5G 1X5,https://www.mountsinai.on.ca/,https://www.mountsinai.on.ca/patients/ed-wait-times,sinai_generic,GTA,43.6595,-79.3900,3
+St. Michael's Hospital,30 Bond St,Toronto,M5B 1W8,https://www.unityhealth.to/locations/st-michaels-hospital/,https://www.unityhealth.to/patients-and-visitors/er-wait-times/,unity_generic,GTA,43.6537,-79.3775,4
+Sunnybrook Health Sciences Centre,2075 Bayview Ave,Toronto,M4N 3M5,https://sunnybrook.ca/,https://sunnybrook.ca/content/?page=emergency-department-wait-times,sunnybrook_generic,GTA,43.7222,-79.3756,5
+North York General Hospital,4001 Leslie St,North York,M2K 1E1,https://www.nygh.on.ca/,https://www.nygh.on.ca/emergency-wait-times,nygh_generic,GTA,43.7692,-79.3629,6
+Humber River Hospital,1235 Wilson Ave,North York,M3M 0B2,https://www.hrh.ca/,https://www.hrh.ca/emergency-wait-times,humber_generic,GTA,43.7196,-79.5100,7
+Scarborough Health Network - General,3050 Lawrence Ave E,Scarborough,M1P 2V5,https://www.shn.ca/,https://www.shn.ca/emergency-wait-times,shn_generic,GTA,43.7547,-79.2483,8
+Scarborough Health Network - Centenary,2867 Ellesmere Rd,Scarborough,M1E 4B9,https://www.shn.ca/,https://www.shn.ca/emergency-wait-times,shn_generic,GTA,43.7842,-79.1925,9
+Scarborough Health Network - Birchmount,3030 Birchmount Rd,Scarborough,M1W 3W3,https://www.shn.ca/,https://www.shn.ca/emergency-wait-times,shn_generic,GTA,43.8014,-79.2972,10
+William Osler Health System - Brampton Civic,2100 Bovaird Dr E,Brampton,L6R 3J7,https://www.williamoslerhs.ca/,https://www.williamoslerhs.ca/en/visiting-us/emergency-department-wait-times.aspx,osler_generic,GTA,43.7431,-79.7422,11
+William Osler Health System - Etobicoke General,101 Humber College Blvd,Etobicoke,M9V 1R8,https://www.williamoslerhs.ca/,https://www.williamoslerhs.ca/en/visiting-us/emergency-department-wait-times.aspx,osler_generic,GTA,43.7317,-79.6056,12
+Trillium Health Partners - Mississauga Hospital,100 Queensway W,Mississauga,L5B 1B8,https://thp.ca/,https://thp.ca/patients-and-visitors/emergency-wait-times,thp_generic,GTA,43.5828,-79.6078,13
+Trillium Health Partners - Credit Valley Hospital,2200 Eglinton Ave W,Mississauga,L5M 2N1,https://thp.ca/,https://thp.ca/patients-and-visitors/emergency-wait-times,thp_generic,GTA,43.5539,-79.7047,14
+Trillium Health Partners - Queensway Health Centre,150 Sherway Dr,Etobicoke,M9C 1A5,https://thp.ca/,https://thp.ca/patients-and-visitors/emergency-wait-times,thp_generic,GTA,43.6106,-79.5539,15
+Hamilton General Hospital,237 Barton St E,Hamilton,L8L 2X2,https://www.hamiltonhealthsciences.ca/,https://www.hamiltonhealthsciences.ca/emergency-wait-times,hhs_generic,Hamilton,43.2592,-79.8550,16
+Juravinski Hospital,711 Concession St,Hamilton,L8V 1C3,https://www.hamiltonhealthsciences.ca/,https://www.hamiltonhealthsciences.ca/emergency-wait-times,hhs_generic,Hamilton,43.2394,-79.8475,17
+McMaster Children's Hospital,1200 Main St W,Hamilton,L8N 3Z5,https://www.hamiltonhealthsciences.ca/,https://www.hamiltonhealthsciences.ca/emergency-wait-times,hhs_generic,Hamilton,43.2608,-79.9161,18
+St. Joseph's Healthcare Hamilton - Charlton Campus,50 Charlton Ave E,Hamilton,L8N 4A6,https://www.stjoes.ca/,https://www.stjoes.ca/emergency-wait-times,stjoes_hamilton_generic,Hamilton,43.2492,-79.8683,19
+London Health Sciences Centre - Victoria Hospital,800 Commissioners Road East,London,N6A 5W9,https://www.lhsc.on.ca/,https://www.lhsc.on.ca/emergency-department/emergency-department-wait-times,lhsc_generic,London,42.9556,-81.2217,20
+London Health Sciences Centre - University Hospital,339 Windermere Road,London,N6A 5A5,https://www.lhsc.on.ca/,https://www.lhsc.on.ca/emergency-department/emergency-department-wait-times,lhsc_generic,London,43.0117,-81.2722,21
+St. Joseph's Health Care London - Mount Hope,21 Grosvenor Street,London,N6A 1Y6,https://www.sjhc.london.on.ca/,https://www.sjhc.london.on.ca/emergency-wait-times,stjoes_london_generic,London,42.9972,-81.2511,22
+The Ottawa Hospital - Civic Campus,1053 Carling Ave,Ottawa,K1Y 4E9,https://www.ottawahospital.on.ca/,https://www.ottawahospital.on.ca/en/patients-visitors/emergency-department-wait-times/,toh_generic,Ottawa,45.3922,-75.7222,23
+The Ottawa Hospital - General Campus,501 Smyth Rd,Ottawa,K1H 8L6,https://www.ottawahospital.on.ca/,https://www.ottawahospital.on.ca/en/patients-visitors/emergency-department-wait-times/,toh_generic,Ottawa,45.3989,-75.6489,24
+Montfort Hospital,713 Montreal Rd,Ottawa,K1K 0T2,https://hopitalmontfort.com/,https://hopitalmontfort.com/en/emergency-wait-times,montfort_generic,Ottawa,45.4456,-75.6256,25
+Queensway Carleton Hospital,3045 Baseline Rd,Nepean,K2H 8P4,https://www.qch.on.ca/,https://www.qch.on.ca/emergency-wait-times,qch_generic,Ottawa,45.3375,-75.8078,26
+Kingston Health Sciences Centre - KGH Site,76 Stuart St,Kingston,K7L 2V7,https://khsc.ca/,https://khsc.ca/emergency-wait-times,khsc_generic,Kingston,44.2250,-76.4917,27
+Hotel Dieu Hospital (Kingston),166 Brock St,Kingston,K7L 5G2,https://khsc.ca/,https://khsc.ca/emergency-wait-times,khsc_generic,Kingston,44.2325,-76.4867,28
+Windsor Regional Hospital - Met Campus,1995 Lens Ave,Windsor,N8W 1L9,https://www.wrh.on.ca/,https://www.wrh.on.ca/ERWaitTimes,wrh_generic,Windsor,42.2981,-82.9972,29
+Windsor Regional Hospital - Ouellette Campus,1030 Ouellette Ave,Windsor,N9A 1E1,https://www.wrh.on.ca/,https://www.wrh.on.ca/ERWaitTimes,wrh_generic,Windsor,42.3081,-83.0333,30
+Health Sciences North,41 Ramsey Lake Rd,Sudbury,P3E 5J1,https://hsnsudbury.ca/,https://hsnsudbury.ca/emergency-wait-times,hsn_generic,Northern,46.4744,-80.9764,31
+Thunder Bay Regional Health Sciences Centre,980 Oliver Rd,Thunder Bay,P7B 6V4,https://tbrhsc.net/,https://tbrhsc.net/emergency-wait-times,tbrhsc_generic,Northern,48.4239,-89.2669,32
+Grand River Hospital - KW Campus,835 King St W,Kitchener,N2G 1G3,https://www.grhosp.on.ca/,https://www.grhosp.on.ca/emergency-wait-times,grh_generic,Waterloo,43.4539,-80.5058,33
+Grand River Hospital - Freeport Campus,3570 King St E,Kitchener,N2A 2W1,https://www.grhosp.on.ca/,https://www.grhosp.on.ca/emergency-wait-times,grh_generic,Waterloo,43.4244,-80.4283,34
+St. Mary's General Hospital,911 Queen's Blvd,Kitchener,N2M 1B2,https://www.smgh.ca/,https://www.smgh.ca/emergency-wait-times,smgh_generic,Waterloo,43.4381,-80.5025,35
+Cambridge Memorial Hospital,700 Coronation Blvd,Cambridge,N1R 3G2,https://www.cmh.org/,https://www.cmh.org/emergency-wait-times,cmh_generic,Waterloo,43.3761,-80.3139,36
+Guelph General Hospital,115 Delhi St,Guelph,N1E 4J4,https://www.gghorg.ca/,https://www.gghorg.ca/emergency-wait-times,ggh_generic,Waterloo,43.5550,-80.2522,37
+Oakville Trafalgar Memorial Hospital,3001 Hospital Gate,Oakville,L6M 0L8,https://www.haltonhealthcare.on.ca/,https://www.haltonhealthcare.on.ca/emergency-wait-times,halton_generic,GTA,43.4731,-79.7422,38
+Milton District Hospital,7030 Derry Rd,Milton,L9T 7H6,https://www.haltonhealthcare.on.ca/,https://www.haltonhealthcare.on.ca/emergency-wait-times,halton_generic,GTA,43.5042,-79.8514,39
+Georgetown Hospital,1 Princess Anne Dr,Halton Hills,L7G 2B8,https://www.haltonhealthcare.on.ca/,https://www.haltonhealthcare.on.ca/emergency-wait-times,halton_generic,GTA,43.6406,-79.9167,40
+Joseph Brant Hospital,1242 Lakeshore Rd,Burlington,L7S 1W7,https://www.josephbranthospital.ca/,https://www.josephbranthospital.ca/emergency-wait-times,jbh_generic,Hamilton,43.3242,-79.8050,41
+Mackenzie Health - Richmond Hill,10 Trench St,Richmond Hill,L4C 4Z3,https://www.mackenziehealth.ca/,https://www.mackenziehealth.ca/emergency-wait-times,mackenzie_generic,GTA,43.8711,-79.4442,42
+Mackenzie Health - Vaughan,3200 Major Mackenzie Dr W,Vaughan,L6A 4Z3,https://www.mackenziehealth.ca/,https://www.mackenziehealth.ca/emergency-wait-times,mackenzie_generic,GTA,43.8475,-79.5472,43
+Southlake Regional Health Centre,596 Davis Dr,Newmarket,L3Y 2P9,https://www.southlakeregional.org/,https://www.southlakeregional.org/emergency-wait-times,southlake_generic,GTA,44.0583,-79.4539,44
+Markham Stouffville Hospital,381 Church St,Markham,L3P 7P3,https://www.msh.on.ca/,https://www.msh.on.ca/emergency-wait-times,msh_markham_generic,GTA,43.8831,-79.2483,45
+Lakeridge Health - Oshawa,1 Hospital Ct,Oshawa,L1G 2B9,https://www.lakeridgehealth.on.ca/,https://www.lakeridgehealth.on.ca/emergency-wait-times,lakeridge_generic,Durham,43.9100,-78.8683,46
+Lakeridge Health - Ajax Pickering,580 Harwood Ave S,Ajax,L1S 2J4,https://www.lakeridgehealth.on.ca/,https://www.lakeridgehealth.on.ca/emergency-wait-times,lakeridge_generic,Durham,43.8344,-79.0208,47
+Lakeridge Health - Whitby,300 Gordon St,Whitby,L1N 5T2,https://www.lakeridgehealth.on.ca/,https://www.lakeridgehealth.on.ca/emergency-wait-times,lakeridge_generic,Durham,43.8744,-78.9419,48
+Lakeridge Health - Bowmanville,47 Liberty St S,Bowmanville,L1C 2N4,https://www.lakeridgehealth.on.ca/,https://www.lakeridgehealth.on.ca/emergency-wait-times,lakeridge_generic,Durham,43.9117,-78.6856,49
+Ontario Shores Centre for Mental Health Sciences,700 Gordon St,Whitby,L1N 5S9,https://www.ontarioshores.ca/,https://www.ontarioshores.ca/emergency-wait-times,ontarioshores_generic,Durham,43.8644,-78.9419,50
+Ross Memorial Hospital,10 Angeline St N,Lindsay,K9V 4M8,https://www.rmh.org/,https://www.rmh.org/emergency-wait-times,rmh_generic,Kawartha,44.3556,-78.7419,51
+Peterborough Regional Health Centre,1 Hospital Dr,Peterborough,K9J 7C6,https://www.prhc.on.ca/,https://www.prhc.on.ca/emergency-wait-times,prhc_generic,Kawartha,44.2981,-78.3419,52
+Northumberland redirection,1000 DePalma Dr,Cobourg,K9A 5W6,https://www.nhh.ca/,https://www.nhh.ca/emergency-wait-times,nhh_generic,Kawartha,43.9722,-78.1750,53
+Campbellford Memorial Hospital,146 Oliver Rd,Campbellford,K0L 1L0,https://www.cmh.ca/,https://www.cmh.ca/emergency-wait-times,cmh_campbellford_generic,Kawartha,44.3075,-77.7972,54
+Haliburton Highlands Health Services,7199 Gelert Rd,Haliburton,K0M 1S0,https://www.hhhs.ca/,https://www.hhhs.ca/emergency-wait-times,hhhs_generic,Kawartha,45.0456,-78.5117,55
+Quinte Health - Belleville General,265 Dundas St E,Belleville,K8N 5A9,https://www.quintehealth.ca/,https://www.quintehealth.ca/emergency-wait-times,qh_generic,Quinte,44.1644,-77.3683,56
+Quinte Health - Trenton Memorial,242 King St,Trenton,K8V 3X1,https://www.quintehealth.ca/,https://www.quintehealth.ca/emergency-wait-times,qh_generic,Quinte,44.1039,-77.5856,57
+Quinte Health - Prince Edward County,403 Main St,Picton,K0K 2T0,https://www.quintehealth.ca/,https://www.quintehealth.ca/emergency-wait-times,qh_generic,Quinte,43.9917,-77.1417,58
+Quinte Health - North Hastings,1H Manor Ln,Bancroft,K0L 1C0,https://www.quintehealth.ca/,https://www.quintehealth.ca/emergency-wait-times,qh_generic,Quinte,45.0567,-77.8572,59
+Broadview Specialty redirection,123 Main St,Toronto,M4C 1A1,https://www.broadview.ca/,https://www.broadview.ca/emergency-wait-times,broadview_generic,GTA,43.6844,-79.3514,60
+Michael Garron Hospital,825 Coxwell Ave,Toronto,M4C 3E7,https://www.tehn.ca/,https://www.tehn.ca/emergency-wait-times,mgh_generic,GTA,43.6872,-79.3236,61
+Sinai Health - Bridgepoint,14 St Matthews Rd,Toronto,M4M 2B5,https://www.sinaihealth.ca/bridgepoint/,https://www.sinaihealth.ca/bridgepoint/emergency-wait-times,sinai_bridgepoint_generic,GTA,43.6650,-79.3525,62
+West Park Healthcare Centre,82 Buttonwood Ave,Toronto,M6M 2J5,https://www.westpark.org/,https://www.westpark.org/emergency-wait-times,westpark_generic,GTA,43.6917,-79.5056,63
+Runnymede Healthcare Centre,625 Runnymede Rd,Toronto,M6S 3A3,https://www.runnymedehc.ca/,https://www.runnymedehc.ca/emergency-wait-times,runnymede_generic,GTA,43.6644,-79.4828,64
+Baycrest Hospital,2500 Bathurst St,Toronto,M6B 3L6,https://www.baycrest.org/,https://www.baycrest.org/emergency-wait-times,baycrest_generic,GTA,43.7256,-79.4319,65
+Holland Bloorview Kids Rehabilitation Hospital,150 Kilgour Rd,Toronto,M4G 1R8,https://hollandbloorview.ca/,https://hollandbloorview.ca/emergency-wait-times,hollandbloorview_generic,GTA,43.7197,-79.3697,66
+Women's College Hospital,76 Grenville St,Toronto,M5S 1B2,https://www.womenscollegehospital.ca/,https://www.womenscollegehospital.ca/emergency-wait-times,wch_generic,GTA,43.6617,-79.3872,67
+Centre for Addiction and Mental Health,1001 Queen St W,Toronto,M6J 1H4,https://www.camh.ca/,https://www.camh.ca/emergency-wait-times,camh_generic,GTA,43.6444,-79.4183,68
+Holland Orthopaedic health centre,43 Wellesley St E,Toronto,M4Y 1H1,https://sunnybrook.ca/content/?page=holland-centre,https://sunnybrook.ca/content/?page=emergency-department-wait-times,sunnybrook_generic,GTA,43.6656,-79.3814,69
+Providence Healthcare,3276 St Clair Ave E,Scarborough,M1L 1W1,https://unityhealth.to/locations/providence-healthcare/,https://unityhealth.to/patients-and-visitors/er-wait-times/,unity_generic,GTA,43.7144,-79.2717,70
+St. Joseph's Health Centre,30 The Queensway,Toronto,M6R 1B5,https://unityhealth.to/locations/st-josephs-health-centre/,https://unityhealth.to/patients-and-visitors/er-wait-times/,unity_generic,GTA,43.6397,-79.4503,71
+General redirection - Niagara,123 Main St,St. Catharines,L2R 3B3,https://www.niagarahealth.on.ca/,https://www.niagarahealth.on.ca/emergency-wait-times,niagara_generic,Niagara,43.1581,-79.2483,72
+Niagara Health - St. Catharines Site,1200 Fourth Ave,St. Catharines,L2S 0A9,https://www.niagarahealth.on.ca/,https://www.niagarahealth.on.ca/site/st-catharines-site,niagara_generic,Niagara,43.1517,-79.2828,73
+Niagara Health - Greater Niagara General,5546 Portage Rd,Niagara Falls,L2E 6X2,https://www.niagarahealth.on.ca/,https://www.niagarahealth.on.ca/site/greater-niagara-general-site,niagara_generic,Niagara,43.0850,-79.0828,74
+Niagara Health - Welland Site,65 Third St,Welland,L3B 4W6,https://www.niagarahealth.on.ca/,https://www.niagarahealth.on.ca/site/welland-site,niagara_generic,Niagara,42.9867,-79.2539,75
+Niagara Health - Port Colborne Site,260 Sugarloaf St,Port Colborne,L3K 2N7,https://www.niagarahealth.on.ca/,https://www.niagarahealth.on.ca/site/port-colborne-site,niagara_generic,Niagara,42.8850,-79.2514,76
+Niagara Health - Fort Erie Site,230 Bertie St,Fort Erie,L2A 1Z2,https://www.niagarahealth.on.ca/,https://www.niagarahealth.on.ca/site/fort-erie-site,niagara_generic,Niagara,42.8950,-78.9372,77
+Haldimand War Memorial Hospital,400 Broad St W,Dunnville,N1A 2P7,https://www.hwmh.ca/,https://www.hwmh.ca/emergency-wait-times,hwmh_generic,Niagara,42.9056,-79.6208,78
+Brant Community Healthcare System - Brantford,200 Terrace Hill St,Brantford,N3R 1G9,https://www.bchsys.org/,https://www.bchsys.org/emergency-wait-times,bchs_generic,Hamilton,43.1481,-80.2633,79
+Brant Community Healthcare System - Willett,238 Grand River St N,Paris,N3L 2N7,https://www.bchsys.org/,https://www.bchsys.org/emergency-wait-times,bchs_generic,Hamilton,43.2006,-80.3844,80
+Norfolk General Hospital redirection,365 West St,Simcoe,N3Y 1T7,https://www.ngh.on.ca/,https://www.ngh.on.ca/emergency-wait-times,ngh_generic,Hamilton,42.8344,-80.3056,81
+West Haldimand General Hospital,75 Parkview Rd,Hagersville,N0A 1H0,https://www.whgh.ca/,https://www.whgh.ca/emergency-wait-times,whgh_generic,Hamilton,42.9567,-80.0525,82
+Collingwood General and Marine Hospital,459 Hume St,Collingwood,L9Y 1W1,https://www.cgmh.on.ca/,https://www.cgmh.on.ca/emergency-wait-times,cgmh_generic,Simcoe,44.4981,-80.2139,83
+Georgian Bay General Hospital,1112 St Andrews Dr,Midland,L4R 4P4,https://www.gbgh.on.ca/,https://www.gbgh.on.ca/emergency-wait-times,gbgh_generic,Simcoe,44.7431,-79.8833,84
+Orillia Soldiers' Memorial Hospital,170 Colborne St W,Orillia,L3V 2Z3,https://www.osmh.on.ca/,https://www.osmh.on.ca/emergency-wait-times,osmh_generic,Simcoe,44.6083,-79.4208,85
+Royal Victoria Regional Health Centre,201 Georgian Dr,Barrie,L4M 6M2,https://www.rvh.on.ca/,https://www.rvh.on.ca/emergency-wait-times,rvh_generic,Simcoe,44.4011,-79.6633,86
+Stevenson Memorial Hospital,200 Division St,Alliston,L9R 1W7,https://www.stevensonhospital.ca/,https://www.stevensonhospital.ca/emergency-wait-times,stevenson_generic,Simcoe,44.1550,-79.8644,87
+Muskoka Algonquin Healthcare - Huntsville,100 Frank Miller Dr,Huntsville,P1H 1H7,https://www.mahc.ca/,https://www.mahc.ca/emergency-wait-times,mahc_generic,North,45.3344,-79.2217,88
+Muskoka Algonquin Healthcare - South Muskoka,75 Ann St,Bracebridge,P1L 2E4,https://www.mahc.ca/,https://www.mahc.ca/emergency-wait-times,mahc_generic,North,45.0356,-79.3133,89
+West Parry Sound Health Centre redirection,6 Albert St,Parry Sound,P2A 3A4,https://www.wpshc.com/,https://www.wpshc.com/emergency-wait-times,wpshc_generic,North,45.3444,-80.0333,90
+North Bay Regional Health Centre,50 College Dr,North Bay,P1B 5A4,https://www.nbrhc.on.ca/,https://www.nbrhc.on.ca/emergency-wait-times,nbrhc_generic,North,46.3311,-79.4828,91
+Timmins and District Hospital,700 Ross Ave E,Timmins,P4N 8P2,https://www.tadh.com/,https://www.tadh.com/emergency-wait-times,tadh_generic,North,48.4744,-81.3333,92
+Sault Area Hospital,750 Great Northern Rd,Sault Ste. Marie,P6B 0A8,https://www.sah.on.ca/,https://www.sah.on.ca/emergency-wait-times,sah_generic,North,46.5411,-84.3217,93
+Grey Bruce Health Services - Owen Sound,1800 8th St E,Owen Sound,N4K 6M9,https://www.gbhs.on.ca/,https://www.gbhs.on.ca/emergency-wait-times,gbhs_generic,West,44.5711,-80.9233,94
+Hanover and District Hospital,90 7th Ave,Hanover,N4N 1N1,https://www.hanoverhospital.on.ca/,https://www.hanoverhospital.on.ca/emergency-wait-times,hdh_generic,West,44.1556,-81.0256,95
+South Bruce Grey Health Centre - Kincardine,1199 Queen St,Kincardine,N2Z 0A1,https://www.sbghc.on.ca/,https://www.sbghc.on.ca/emergency-wait-times,sbghc_generic,West,44.1750,-81.6333,96
+South Bruce Grey Health Centre - Walkerton,21 McGivern St W,Walkerton,N0G 2V0,https://www.sbghc.on.ca/,https://www.sbghc.on.ca/emergency-wait-times,sbghc_generic,West,44.1344,-81.1533,97
+South Bruce Grey Health Centre - Chesley,39 2nd SE,Chesley,N0G 1L0,https://www.sbghc.on.ca/,https://www.sbghc.on.ca/emergency-wait-times,sbghc_generic,West,44.2981,-81.1006,98
+South Bruce Grey Health Centre - Durham,320 College St,Durham,N0G 1R0,https://www.sbghc.on.ca/,https://www.sbghc.on.ca/emergency-wait-times,sbghc_generic,West,44.1744,-80.8208,99
+Brockville General Hospital,75 Charles St,Brockville,K6V 1S8,https://www.brockvillegeneralhospital.ca/,https://www.brockvillegeneralhospital.ca/emergency-wait-times,bgh_generic,East,44.5911,-75.6883,100
+Cornwall Community Hospital,840 McConnell Ave,Cornwall,K6H 5S5,https://www.cornwallhospital.ca/,https://www.cornwallhospital.ca/emergency-wait-times,cch_generic,East,45.0256,-74.7233,101
+Perth and Smiths Falls District Hospital,60 Cornelia St W,Smiths Falls,K7A 2H9,https://psfdh.on.ca/,https://psfdh.on.ca/emergency-wait-times,psfdh_generic,East,44.9011,-76.0256,102
