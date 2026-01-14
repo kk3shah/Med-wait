@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { MapPin, Clock, Navigation, AlertTriangle, Info, RefreshCw } from 'lucide-react'
+import { MapPin, Clock, Navigation, AlertTriangle, Info, RefreshCw, ServerCrash } from 'lucide-react'
 import { clsx } from 'clsx'
 
 interface ScoredHospital {
@@ -30,6 +30,7 @@ interface ScoredHospital {
 export default function Home() {
   const [data, setData] = useState<ScoredHospital[]>([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
   const [location, setLocation] = useState<{ lat: number, lng: number } | null>(null)
 
   useEffect(() => {
@@ -53,13 +54,16 @@ export default function Home() {
   const fetchData = async () => {
     if (!location) return
     setLoading(true)
+    setError(null)
     try {
       const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001'
       const res = await fetch(`${baseUrl}/api/recommendations?lat=${location.lat}&lng=${location.lng}`)
+      if (!res.ok) throw new Error(`API error: ${res.statusText}`)
       const items = await res.json()
       setData(items)
-    } catch (err) {
+    } catch (err: any) {
       console.error('Fetch failed', err)
+      setError(err.message || 'Failed to connect to wait-time service.')
     } finally {
       setLoading(false)
     }
@@ -92,6 +96,24 @@ export default function Home() {
           Refresh My View
         </button>
       </div>
+
+      {error && !loading && (
+        <div className="error-state glass-card">
+          <ServerCrash size={48} className="icon-error" />
+          <h3>Connection Issue</h3>
+          <p>{error}</p>
+          <p className="hint">Ensure your local API is running at <code>{process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001'}</code> or set <code>NEXT_PUBLIC_API_URL</code> in Vercel.</p>
+        </div>
+      )}
+
+      {data.length === 0 && !loading && !error && (
+        <div className="empty-state glass-card">
+          <Info size={48} />
+          <h3>No Hospitals Found</h3>
+          <p>We couldn't find any hospitals in your area or the database is empty.</p>
+          <p className="hint">Run <code>npm run db:seed</code> and start the scraper to populate data.</p>
+        </div>
+      )}
 
       <div className="hospital-grid">
         <AnimatePresence>
@@ -300,6 +322,26 @@ export default function Home() {
           display: flex;
           align-items: center;
           gap: 8px;
+        }
+        .error-state, .empty-state {
+            text-align: center;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            max-width: 600px;
+            margin: 40px auto;
+        }
+        .hint {
+            font-size: 0.85rem;
+            color: #666;
+        }
+        code {
+            background: #222;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: var(--primary);
         }
       `}} />
     </main>
